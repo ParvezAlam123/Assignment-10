@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\columnsep}{8mm}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ left=5mm,
+ right=5mm,
+ top=5mm
+ }
+
+\title{Assignment 10}
+\author{Parvez Alam : AI21RESCH01005 }
+\date{March 2021}
+
+\begin{document}
+
+\maketitle
+\begin{multicols}{2}
+\begin{center}
+    \begin{tabular}{|p{5cm}|}
+    \hline
+         Git Hub Link : \url{https://github.com/ParvezAlam123/Assignment-10} \\
+    \hline
+    \end{tabular}
+\end{center}
+
+
+\section{Gate 21 :}
+\textbf{Consider two identically distributed zero mean random variables U and V. Let the cumulative distribution function of U and 2V be F(x) and G(x) respectively. Then for all value of x  \\
+(a) F(x)-G(x)\(\leq\)0  (b) (F(x)-G(x))\(\leq\)0 \\
+(c) F(x)-G(x)\(\geq\)0  (d) (F(x)-G(x))x\(\geq\)0} \\
+\textbf{Solution: } \\
+Since U and V are identically distributed.So
+\begin{align}
+    F(x) &= P(X\leq x) \nonumber \\
+    G(x) &= P(2X\leq x) \nonumber \\
+         &= P(X \leq x/2) \nonumber
+\end{align}
+if X \(>\) 0 then 
+\begin{align}
+    F(x)-G(x)>0 \nonumber
+\end{align}
+if X \(<\) 0 then
+\begin{align}
+    F(x)-G(x)&<0 \nonumber \\
+    \Rightarrow (F(x)-G(x))x& \geq 0 \nonumber 
+\end{align}
+\\ \\
+\includegraphics[width=\columnwidth]{Plot_10.png}
+
+
+
+\end{multicols}
+\end{document}
